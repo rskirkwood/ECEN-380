@@ -1,5 +1,5 @@
 %%% CLOCKS Opening %%%
-%%%Testing github 
+%%%Testing github as a contributer
 Ts = 1/16000;
 beatps = 2; % 120 bpm
 
