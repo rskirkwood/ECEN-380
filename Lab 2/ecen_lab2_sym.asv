@@ -1,0 +1,15 @@
+%%% Solving the Equation Symbolically %%%
+
+C = 1.08e-6;
+R_s = 50;
+R_l = 599;
+t_step = 1/100;
+P = 1/(C*R_s);
+
+syms y(t);
+u = heaviside(t);
+dif_eq = (diff(y,t) + ((R_l+R_s)/(R_sC)*y) == 0; 
+condition = y(0) == 1;
+y_n = dsolve(dif_eq, condition);
+h_sym = P*y_n*heaviside(t);
+fplot(h_sym);
