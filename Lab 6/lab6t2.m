@@ -1,4 +1,4 @@
-%%% MATLAB Code for Lab 6 %%%
+%%% MATLAB Code for Lab 6 Task 2%%%
 
 %% FIR filters (Task 2.1)
 
